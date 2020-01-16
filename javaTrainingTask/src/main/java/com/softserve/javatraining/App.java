@@ -19,7 +19,7 @@ public class App {
             minimalSqr = Integer.valueOf(args[0]);
             count = Integer.valueOf(args[1]);
         }
-        System.out.printf("Result for Minimal squr:%d, and count:%d", minimalSqr, count);
+        System.out.printf("Result for Minimal squr:%d, and count:%d is:", minimalSqr, count);
         System.out.println(getNumbersListBasedOnSqrFunction(minimalSqr, count));
     }
 
