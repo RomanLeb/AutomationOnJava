@@ -14,6 +14,8 @@ public class AppTest {
             "0, 0"
     })
     public  void invalidArgumentsTest(int minimalSqr, int numbersCount){
-        Assertions.assertThrows(IllegalArgumentException.class, ()->{App.getNumbersListBasedOnSqrFunction(minimalSqr, numbersCount);});
+        Assertions.assertThrows(IllegalArgumentException.class, () -> {
+            App.getNumbersListBasedOnSqrFunction(minimalSqr, numbersCount);
+        });
     }
 }
